@@ -10,9 +10,9 @@ public class ConexionDB {
     
     public static Connection obtenerConexion(){
         Connection conn=null;
-        String URL="jdbc:mysql://localhost:3306/GamePub";
+        String URL="jdbc:mysql://localhost:3306/DataBase";
         String usuario="root";
-        String password="richi123";
+        String password="password";
         try{
              conn=DriverManager.getConnection(URL,usuario,password);
              if(conn != null){
